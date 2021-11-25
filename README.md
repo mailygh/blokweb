@@ -97,7 +97,17 @@ samen met je groepje opstellen
 | ---            | ---                | ---          | ---              |
 | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| ...            | ...                |              | ...              |
+
+student 1   
+ik heb een probleem met javascript, als ik die upload op github gaat het allemaal niet zo best
+
+student 2 
+ik weet nog niet hoe ik een menu met navigatielijst erin moet maken met javascript ') en positioneren lukte me niet echt.
+
+student 3
+Mijn breakdownS kan ik niet uploaden op github(te groot bestand).  
+
 
 
 ### Verslag van meeting
