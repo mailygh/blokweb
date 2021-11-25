@@ -57,7 +57,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -70,7 +70,6 @@ hier de naam van de pagina
 
 
 
-
 ## Voortgang 1 (week 2)
 
 <details open>
@@ -78,6 +77,17 @@ hier de naam van de pagina
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+Tot nu toe heb ik 2 html pagina's, verder heb ik veel tijd besteed aan opdrachten. 
+
+Wat goed/beter 
+Position
+Flexbox
+
+Wat lastig
+Javascript moet ik nog extra mee oefenen. 
+Css selectors ook nog mee oefenen om beter te begrijpen. 
+
 
 
 ### Agenda voor meeting
