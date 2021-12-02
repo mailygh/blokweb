@@ -100,10 +100,10 @@ samen met je groepje opstellen
 | ...            | ...                |              | ...              |
 
 student 1   
-ik heb een probleem met javascript, als ik die upload op github gaat het allemaal niet zo best
+Ik heb een probleem met javascript, als ik die upload op github gaat het allemaal niet zo best
 
 student 2 
-ik weet nog niet hoe ik een menu met navigatielijst erin moet maken met javascript ') en positioneren lukte me niet echt.
+Ik weet nog niet hoe ik een menu met navigatielijst erin moet maken met javascript ') en positioneren lukte me niet echt.
 
 student 3
 Mijn breakdownS kan ik niet uploaden op github(te groot bestand).  
@@ -114,7 +114,11 @@ Mijn breakdownS kan ik niet uploaden op github(te groot bestand).
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - punt 1
+Het zo plannen dat ik naast de oefeningen, meteen toe ga passen zodat ik iets meer practische te werk ga. 
+
 - punt 2
+Het bestand van de breakdownschets kleiner maken in illustrator of photoshop. 
+
 - nog een punt
 - ...
 

@@ -3,3 +3,102 @@
   box-sizing:border-box;  
 }
 
+/******************************/
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+:root {
+  --main-color:black;
+  --background-color:lightgray;
+  
+  --accent-color:white;
+  --accent-background-color:orange;
+  
+  --white-space:5vw;
+}
+
+body {
+margin: 0;
+font-family: "arial";
+color:var(--main-color);
+background-color:var(--background-color);
+}
+
+header p 
+{
+color:var(--accent-color);
+background-color:var(--accent-background-color);
+text-align: center;
+margin-top: 0;
+padding: 10px 10px;
+}
+
+img 
+{
+width: 150px;
+height: auto;
+display: flex;
+margin: auto;
+}
+
+section img 
+{
+  width: 100px;
+  height: auto;
+  padding: 1em 1em;
+
+  }
+
+section
+{
+background-color:navajowhite;
+border-radius: 25px;
+width: 300px;
+margin: auto;
+}
+
+h2{
+  color:var(--accent-color);
+  text-align: center;
+  padding: 1em 1em 1em 1em;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+li:nth-of-type(1) section {
+  
+}
+
+
+li:nth-of-type(2) section {
+  text-align: left;
+  background-color: #e11383;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  color:var(--accent-color);
+}
+
+
+
+nav{
+background-color:var(--accent-background-color);
+text-align: center;
+padding: 3em 3em;
+}
+
+nav a {
+display: block;
+background-color:darkorange;
+margin: auto;
+margin-top: 1em;
+border-radius: 30px;
+line-height: 3em;
+color:var(--accent-color);
+width: 200px;
+}
+
+
+h2 
