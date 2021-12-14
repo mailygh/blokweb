@@ -379,8 +379,8 @@ button{
   background-color:#e11383;
   color: white;
   font-weight: bold;
-  padding: 1em 1em;
-  margin: 1em 1em;
+  padding: 5px 5px;
+  margin: 5px 5px;
   transition: 1s;
 }
 button:hover{
