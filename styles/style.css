@@ -1,104 +1,406 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+box-sizing:border-box;  
 }
 
 /******************************/
 /* ALGEMENE CUSTOM PROPERTIES */
 /******************************/
 :root {
-  --main-color:black;
-  --background-color:lightgray;
-  
-  --accent-color:white;
-  --accent-background-color:orange;
-  
-  --white-space:5vw;
+  --main-color:#4d2f0b; /* main color staat voor de tekst */
+  --accent-color:white;/* accent color staat voor alternatieve tekst*/
+  --background-color:#f5f5f5; /* background color staat voor background color*/
+  --accent-background-color:orange; /* alternatief voor backgroundcolor*/
 }
 
 body {
-margin: 0;
-font-family: "arial";
-color:var(--main-color);
-background-color:var(--background-color);
+  background-color:var(--background-color);
+  color:var(--main-color);
+  font-family: "courier";
+  margin: 0; /* tussen de header en de body geen margin */
+  width: 100%;
 }
 
 header p 
 {
-color:var(--accent-color);
-background-color:var(--accent-background-color);
-text-align: center;
-margin-top: 0;
-padding: 10px 10px;
+  background-color:var(--accent-background-color);
+  color:var(--accent-color);
+  text-align: center;
+  margin-top: 0;
+  padding: 10px 10px;
 }
 
-img 
+header img 
 {
-width: 150px;
-height: auto;
-display: flex;
-margin: auto;
-}
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: auto; 
+} 
 
-section img 
+main section img 
 {
   width: 100px;
   height: auto;
+  display: block;
+  margin: auto; 
   padding: 1em 1em;
 
-  }
-
-section
-{
-background-color:navajowhite;
-border-radius: 25px;
-width: 300px;
-margin: auto;
 }
 
-h2{
-  color:var(--accent-color);
+header h1 {
   text-align: center;
-  padding: 1em 1em 1em 1em;
 }
 
 ul {
   margin:0;
   padding:0;
   list-style:none;
-}
-
-li:nth-of-type(1) section {
-  
+  position: relative;
 }
 
 
-li:nth-of-type(2) section {
+/* eerste van de list type section */
+main li:nth-of-type(1) section {
+  background-color:rgb(226, 182, 110);
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em 1em;
+
+}
+
+
+/* tweede van de list type section h2 */
+main section:nth-of-type(1) h2  {
+  color:var(--accent-color);
+  text-align: center;
+}
+/* spreek alleen de h2 aan van de lijst */
+li:nth-of-type(1) h2 {
+  position: sticky;
+  top: 75px;
+}
+/* tweede van de list type section */
+main li:nth-of-type(2) section {
+  background-color:#e11383;
+  color:var(--accent-color);
+  border-radius: 25px;
   text-align: left;
-  background-color: #e11383;
-  padding-left: 1em;
-  padding-bottom: 1em;
+  width: 300px;
+  height: auto;
+  padding: 1em 1em;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+}
+main li:nth-of-type(2) p{
+  text-align: left;
+}
+
+
+main section h3{
+  color: #e11383;
+  text-align: center;
+}
+
+main article section {
+  background-color:#9484;
+  color: #f5f5f5;
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  margin: auto; 
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+article h2 {
+  text-align: center;
+}
+
+
+main li:nth-of-type(3) section {
+  background-color:#84c4e5;
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  padding: 1em 1em;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  color:var(--accent-color);
+  text-align: center;
+}
+
+main li:nth-of-type(3) section h3  {
   color:var(--accent-color);
 }
 
+main li:nth-of-type(3) section img{
+  width: 200px;
+}
 
 
-nav{
-background-color:var(--accent-background-color);
-text-align: center;
-padding: 3em 3em;
+main li:nth-of-type(4) section {
+  background-color:var(--background-color);
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  padding: 1em 1em;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  color:var(--accent-color);
+  text-align: center;
+
+}
+
+main li:nth-of-type(4) h2{
+  color: #fa7b0d;
+}
+
+main li:nth-of-type(4) p{
+  color: #94848c;
+}
+
+main li:nth-of-type(4) section img{
+  width: 250px;
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+}
+
+main li:nth-of-type(4) a {
+  background-color: orange;
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  color:var(--accent-color);
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em 1em;
+  color:var(--accent-color);
+  transition: 1s;
+}
+main li:nth-of-type(4) a:hover{
+  background-color:var(--background-color);
+  color: #fa7b0d;
+}
+
+
+main li:nth-of-type(5) section h2{
+  color: orange;
+}
+
+main li:nth-of-type(5) a {
+  background-color:var(--accent-background-color);
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  color:var(--accent-color);
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em 1em;
+  color:var(--accent-color);
+  transition: 1s;
+}
+main li:nth-of-type(5) a:hover{
+  background-color:var(--background-color);
+  color: #fa7b0d;
+}
+
+main article section {
+  background-color: #bcb4bc;
+}
+
+main article a{
+  color:var(--accent-color);
+  transition: 1s;
+}
+
+main article a:hover{
+  background-color:var(--background-color);
+  color: #fa7b0d;
+}
+
+article h2 {
+  color: #e11383;
+}
+
+main article p {
+  color:var(--accent-color);
+}
+
+main article img {
+  background-color: #e11383; 
+  border-radius: 50%;
+}
+
+article a {
+  background-color:var(--accent-background-color);
+  border-radius: 25px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  color:var(--accent-color);
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em 1em;
+}
+
+
+footer h2 img {
+  background-color: white;
+  border-radius: 50%;
+  width: 10%;
+}
+
+footer h2 {
+  text-align:center;
+}
+
+footer nav{
+  background-color:var(--accent-background-color);
+  text-align: center;
+  padding: 3em 3em;
 }
 
 nav a {
-display: block;
-background-color:darkorange;
-margin: auto;
-margin-top: 1em;
-border-radius: 30px;
-line-height: 3em;
-color:var(--accent-color);
-width: 200px;
+  background-color:#fa7b0d;
+  border-radius: 30px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  line-height: 3em;
+  color:var(--accent-color);
+  transition: 1s;
+}
+
+nav a:hover{
+  background-color:var(--background-color);
+  color: #fa7b0d;
 }
 
 
-h2 
+footer ol { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style:none;
+}  
+
+
+footer ol img{
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  padding: 1em 1em;
+}
+
+
+footer p {
+  text-align: center;
+}
+
+main  h2 {
+  text-align: center;
+  color:#e11383
+
+}
+
+main h3 {
+  text-align: center;
+  margin: 1em 1em;
+}
+
+main p {
+  text-align: center;
+  font-weight: bold;
+}
+
+main form{
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: #84c4e5;
+  stroke: white;
+  padding: 1em 1em;
+  margin-bottom: 1px;
+}
+
+main form fieldset{
+  margin-bottom: 1em;
+}
+main form input{
+  border: none;
+  border-radius: 10px;
+  background-color:var(--background-color);
+  color: #e11383;
+  font-weight: bold;
+  transition: 1s;
+}
+
+main form input:active{
+  background-color:#fa7b0d;
+  color:var(--accent-color);
+}
+
+main img {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+li button{
+  border: none;
+  border-radius: 15px;
+  background-color:var(--background-color);
+  color: #e11383;
+  font-weight: bold;
+}
+
+li button:hover {
+  background-color:var(--accent-background-color);
+  border: black;
+  color:var(--accent-color);
+}
+
+button{
+  border-radius: 10px;
+  background-color:#e11383;
+  color: white;
+  font-weight: bold;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  transition: 1s;
+}
+button:hover{
+  background-color:#fa7b0d;
+  color:var(--accent-color);
+}
+
+div {
+  text-align: center;
+  padding: 1em 1em;
+  transition: 1s;
+}
+
+div.privacypolicy {
+  color: transparent;
+}
+
+
+
+
+
+
+

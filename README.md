@@ -146,6 +146,11 @@ samen met je groepje opstellen
 | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
+student 1 ik weet niet hoe ik per regel een andere kleur kan geven
+
+student 2 geen vragen 
+
+student 3 geen vragen
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
