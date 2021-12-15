@@ -6,18 +6,19 @@ box-sizing:border-box;
 /******************************/
 /* ALGEMENE CUSTOM PROPERTIES */
 /******************************/
+/* In de root (kern) van css staan de gepersonaliseerde kleuren */
 :root {
-  --main-color:#4d2f0b; /* main color staat voor de tekst */
-  --accent-color:white;/* accent color staat voor alternatieve tekst*/
-  --background-color:#f5f5f5; /* background color staat voor background color*/
+  --main-color:#4d2f0b; 
+  --accent-color:white;
+  --background-color:#f5f5f5; 
   --accent-background-color:orange; /* alternatief voor backgroundcolor*/
 }
-
+/* Algemene styling*/
 body {
   background-color:var(--background-color);
   color:var(--main-color);
   font-family: "courier";
-  margin: 0; /* tussen de header en de body geen margin */
+  margin: 0; 
   width: 100%;
 }
 
@@ -29,7 +30,7 @@ header p
   margin-top: 0;
   padding: 10px 10px;
 }
-
+/*Het logo*/
 header img 
 {
   width: 150px;
@@ -37,7 +38,7 @@ header img
   display: block;
   margin: auto; 
 } 
-
+/* Eerste coffee img */
 main section img 
 {
   width: 100px;
@@ -51,7 +52,7 @@ main section img
 header h1 {
   text-align: center;
 }
-
+/* Lijst opgedeeld in 5 onderdelen */
 ul {
   margin:0;
   padding:0;
@@ -60,7 +61,7 @@ ul {
 }
 
 
-/* eerste van de list type section */
+/* Eerste van de list type section */
 main li:nth-of-type(1) section {
   background-color:rgb(226, 182, 110);
   border-radius: 25px;
@@ -74,17 +75,17 @@ main li:nth-of-type(1) section {
 }
 
 
-/* tweede van de list type section h2 */
+/* Tweede van de list type section h2 */
 main section:nth-of-type(1) h2  {
   color:var(--accent-color);
   text-align: center;
 }
-/* spreek alleen de h2 aan van de lijst */
+/* Spreek alleen de h2 aan van de lijst */
 li:nth-of-type(1) h2 {
   position: sticky;
   top: 75px;
 }
-/* tweede van de list type section */
+/* Tweede van de list type section */
 main li:nth-of-type(2) section {
   background-color:#e11383;
   color:var(--accent-color);
@@ -101,12 +102,12 @@ main li:nth-of-type(2) p{
   text-align: left;
 }
 
-
+/* Article opgedeeld in secties */
 main section h3{
   color: #e11383;
   text-align: center;
 }
-
+/* Article achtergrond styling */
 main article section {
   background-color:#9484;
   color: #f5f5f5;
@@ -122,7 +123,7 @@ article h2 {
   text-align: center;
 }
 
-
+/* Derde van de list type section */
 main li:nth-of-type(3) section {
   background-color:#84c4e5;
   border-radius: 25px;
@@ -144,7 +145,7 @@ main li:nth-of-type(3) section img{
   width: 200px;
 }
 
-
+/* Vierde van de list type section */
 main li:nth-of-type(4) section {
   background-color:var(--background-color);
   border-radius: 25px;
@@ -188,6 +189,7 @@ main li:nth-of-type(4) a {
   color:var(--accent-color);
   transition: 1s;
 }
+/* Animatie transitie hover state */
 main li:nth-of-type(4) a:hover{
   background-color:var(--background-color);
   color: #fa7b0d;
@@ -197,7 +199,7 @@ main li:nth-of-type(4) a:hover{
 main li:nth-of-type(5) section h2{
   color: orange;
 }
-
+/* Vijfde van de list type section */
 main li:nth-of-type(5) a {
   background-color:var(--accent-background-color);
   border-radius: 25px;
@@ -212,6 +214,7 @@ main li:nth-of-type(5) a {
   color:var(--accent-color);
   transition: 1s;
 }
+/* Animatie transitie hover state */
 main li:nth-of-type(5) a:hover{
   background-color:var(--background-color);
   color: #fa7b0d;
@@ -225,7 +228,7 @@ main article a{
   color:var(--accent-color);
   transition: 1s;
 }
-
+/* Animatie transitie hover state */
 main article a:hover{
   background-color:var(--background-color);
   color: #fa7b0d;
@@ -311,7 +314,7 @@ footer ol img{
 footer p {
   text-align: center;
 }
-
+/* Styling html pagina 2 */
 main  h2 {
   text-align: center;
   color:#e11383
@@ -348,7 +351,7 @@ main form input{
   font-weight: bold;
   transition: 1s;
 }
-
+/* Animatie transitie active state */
 main form input:active{
   background-color:#fa7b0d;
   color:var(--accent-color);
@@ -373,7 +376,7 @@ li button:hover {
   border: black;
   color:var(--accent-color);
 }
-
+/* Onderdeel js inklapbutton*/
 button{
   border-radius: 10px;
   background-color:#e11383;
