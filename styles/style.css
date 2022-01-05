@@ -8,12 +8,12 @@ box-sizing:border-box;
 /******************************/
 /* In de root (kern) van css staan de gepersonaliseerde kleuren */
 :root {
-  --main-color:#4d2f0b; 
-  --accent-color:white;
-  --background-color:#f5f5f5; 
+  --main-color:#4d2f0b; /* main color staat voor de tekst */
+  --accent-color:white;/* accent color staat voor alternatieve tekst*/
+  --background-color:#f5f5f5; /* background color staat voor background color*/
   --accent-background-color:orange; /* alternatief voor backgroundcolor*/
 }
-/* Algemene styling*/
+/* Algemene properties */
 body {
   background-color:var(--background-color);
   color:var(--main-color);
@@ -46,9 +46,11 @@ main section img
   display: block;
   margin: auto; 
   padding: 1em 1em;
-
+  transition: all 2s ease-in-out;
 }
-
+main li:nth-of-type(1) section img:hover{
+  transform: rotate(45deg);
+}
 header h1 {
   text-align: center;
 }
@@ -59,7 +61,6 @@ ul {
   list-style:none;
   position: relative;
 }
-
 
 /* Eerste van de list type section */
 main li:nth-of-type(1) section {
@@ -73,7 +74,6 @@ main li:nth-of-type(1) section {
   padding: 1em 1em;
 
 }
-
 
 /* Tweede van de list type section h2 */
 main section:nth-of-type(1) h2  {
@@ -90,7 +90,7 @@ main li:nth-of-type(2) section {
   background-color:#e11383;
   color:var(--accent-color);
   border-radius: 25px;
-  text-align: left;
+  text-align: center;
   width: 300px;
   height: auto;
   padding: 1em 1em;
@@ -99,7 +99,7 @@ main li:nth-of-type(2) section {
   margin-top: 1em;
 }
 main li:nth-of-type(2) p{
-  text-align: left;
+  text-align: center;
 }
 
 /* Article opgedeeld in secties */
@@ -247,6 +247,14 @@ main article img {
   border-radius: 50%;
 }
 
+article section img {
+  transition: all 2s ease-in-out ;
+}
+
+article section img:hover {
+  transform: rotate(360deg);
+}
+
 article a {
   background-color:var(--accent-background-color);
   border-radius: 25px;
@@ -300,6 +308,7 @@ footer ol {
   flex-direction: row;
   justify-content: center;
   list-style:none;
+  padding-right: 30px;
 }  
 
 
@@ -310,6 +319,21 @@ footer ol img{
   padding: 1em 1em;
 }
 
+footer ol img{
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-radius: 30%;
+  background-color:#84c4e5;
+  margin: 1em 1em;
+  color: white;
+  font-weight: bold;
+  transition: 1s;
+}
+footer ol img:active{
+  background-color:orange;
+  color:var(--accent-color);
+}
 
 footer p {
   text-align: center;
@@ -371,7 +395,7 @@ li button{
   font-weight: bold;
 }
 
-li button:hover {
+li button:active {
   background-color:var(--accent-background-color);
   border: black;
   color:var(--accent-color);
@@ -386,7 +410,7 @@ button{
   margin: 5px 5px;
   transition: 1s;
 }
-button:hover{
+button:active{
   background-color:#fa7b0d;
   color:var(--accent-color);
 }
@@ -400,7 +424,6 @@ div {
 div.privacypolicy {
   color: transparent;
 }
-
 
 
 

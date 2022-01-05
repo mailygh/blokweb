@@ -1,0 +1,255 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+  }
+  
+  /******************************/
+  /* ALGEMENE CUSTOM PROPERTIES */
+  /******************************/
+  /* In de root (kern) van css staan de gepersonaliseerde kleuren */
+  :root {
+    --main-color:#4d2f0b; /* main color staat voor de tekst */
+    --accent-color:white;/* accent color staat voor alternatieve tekst*/
+    --background-color:#e11383; /* background color staat voor background color*/
+    --accent-background-color:orange; /* alternatief voor backgroundcolor*/
+  }
+ /* algemene properties */
+  body {
+    background-color:var(--background-color);
+    color:var(--main-color);
+    font-family: "courier";
+    margin: 0; 
+    width: 100%;
+  }
+  
+  header p 
+  {
+    background-color:var(--accent-background-color);
+    color:var(--accent-color);
+    text-align: center;
+    margin-top: 0;
+    padding: 10px 10px;
+  }
+  /* het logo */
+  header img 
+  {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: auto; 
+  } 
+
+  header h1 {
+    text-align: center;}
+  /* achtergrond kleur header */
+  header { 
+    background-color: white;
+    padding-bottom: 1em;
+  }
+ /* animatie img spinn */
+  main img {
+    transition: all 2s ease-in-out;}
+
+  main img:hover {
+    transform: rotate(360deg);
+  }
+    
+  main h2 {
+    color:var(--accent-color);
+    text-align: center;
+  }
+  
+  ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+
+  main h3 {
+    color: white;
+  }
+  /* achtergrond kleur footer */
+  footer {
+    background-color: white;
+  }
+  
+  footer h2 {
+    text-align:center;
+  }
+  
+  footer nav{
+    background-color:var(--accent-background-color);
+    text-align: center;
+    padding: 3em 3em;
+  }
+   /* nav styling links */
+  nav a {
+    background-color:#fa7b0d;
+    border-radius: 30px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    line-height: 3em;
+    color:var(--accent-color);
+    transition: 1s;
+  }
+  
+  nav a:hover {
+    background-color:white;
+    color: #fa7b0d;
+  }
+  
+  footer ol { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style:none;
+    padding-right: 30px;
+  }  
+  
+  footer ol img{
+    margin: 1em 1em;
+    width: 50px;
+    height: 50px;
+    padding: 1em 1em;
+  }
+ /* social media styling  */
+  footer ol img{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 30%;
+    background-color:#84c4e5;
+    margin: 1em 1em;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+  }
+  footer ol img:active{
+    background-color:orange;
+    color:var(--accent-color);
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
+  /* contact info styling  */
+  main p {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em 1em;
+    background-color:#84c4e5;
+    color:var(--accent-color);
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    }
+
+  p{
+    font-weight: bold;
+    background-color:#e11383;
+    color: white;
+    font-weight: bold;
+    padding: 5px 5px;
+    transition: 1s;
+    }
+
+  p:hover{
+    background-color:#fa7b0d;
+    color:var(--accent-color);
+  }
+
+main h3 {
+    text-align: center;
+    margin: 1em 1em;
+}
+
+main p {
+    text-align: center;
+    font-weight: bold;
+}
+/* formulier styling */
+main form{
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: lightgray;
+    stroke: white;
+    padding: 1em 1em;
+    margin-bottom: 1px;
+}
+
+main form fieldset{
+    margin-bottom: 1em;
+}
+/* submit button styling */
+main form input{
+    margin: 1em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #e11383;
+    font-weight: bold;
+    transition: 1s;
+}
+/* Animatie transitie active state */
+main form input:focus{
+    background-color:#fa7b0d;
+    color:var(--accent-color);
+}
+
+main img {
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+li button{
+    border: none;
+    border-radius: 15px;
+    background-color:var(--background-color);
+    color: #e11383;
+    font-weight: bold;
+
+}
+
+li button:active {
+    background-color:var(--accent-background-color);
+    border: black;
+    color:var(--accent-color);
+}
+/* Onderdeel js inklapbutton*/
+button{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#e11383;
+    color: white;
+    font-weight: bold;
+    transition: 1s;
+}
+button:hover{
+    background-color:#fa7b0d;
+    color:var(--accent-color);
+}
+
+div {
+    text-align: center;
+    padding: 1em 1em;
+    transition: 1s;
+}
+
+div.privacypolicy {
+    color: transparent;
+}
+
+
+  
+  
+  
+  

@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Maily Manoppo (vervangen door jouw naam)
+Maily Manoppo 
 
 #### Je startniveau:
-Blauw (kies uit zwart, rood óf blauw)
+Blauw 
 
 #### Je focus:
-Surface plane (kies uit responsive óf surface plane)
+Surface plane 
  
 </details>
 
@@ -37,7 +37,7 @@ Surface plane (kies uit responsive óf surface plane)
 
 ### Je opdracht:
 https://www.dunkin.nl/
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
@@ -57,7 +57,7 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/Breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -76,7 +76,7 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig 
 
 Tot nu toe heb ik 2 html pagina's, verder heb ik veel tijd besteed aan opdrachten. 
 
@@ -92,12 +92,6 @@ Css selectors ook nog mee oefenen om beter te begrijpen.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                |              | ...              |
 
 student 1 Eva
 Ik heb een probleem met javascript, als ik die upload op github gaat het allemaal niet zo best
@@ -119,12 +113,7 @@ Het zo plannen dat ik naast de oefeningen, meteen toe ga passen zodat ik iets me
 - punt 2
 Het bestand van de breakdownschets kleiner maken in illustrator of photoshop. 
 
-- nog een punt
-- ...
-
 </details>
-
-
 
 
 
@@ -140,12 +129,6 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
 student 1 Maily ik weet niet hoe ik per regel een andere kleur kan geven
 
 student 2 Eva geen vragen 
@@ -157,13 +140,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Ze hebben mij een link gegeven hoe ik het kan doen.
 - Ze raden mij aan een div met span te gebruiken.
-- nog een punt
-- ...
 
 </details>
-
-
-
 
 
 ## Toegankelijkheidstest (week 4)
@@ -172,42 +150,50 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+Lijst met mijn bevindingen die in de test naar voren kwamen:
 
 #### Titel Gele bril eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-Oranje veranderd in roze, wanneer je deze bril op hebt.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-Je kunt de kleuren aanpassen, oranje is de kleur van de huisstijl van dunkin je zou eventueel verschillende kleuren oranje 
-kunnen gebruiken, om een duidelijker contrast te creeren tussen de verschillende elementen.
-
-#### Titel Blurry rondje in het midden bril tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-De buitenkant is scherp de binnenkant bijna niet te zien.
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-Je kunt aan het probleem vrij weinig doen, het helpt wel om de letterypes groter te maken en nogmaals een goed contrast.
-
-#### Titel Dat apparaatje dat voor een motorische beperking zorgt volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-Je maakt onverwachte en ongwenste bewegingen.
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-Je kunt de buttons iets verder uit elkaar zetten zodat de persoon met de beperking minder meer ruimte heeft en minder snel op
-iets drukt dat niet bedoelt is.
-
-#### Titel screenreader nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-De screen reader leest alle html op.
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-Door bij images die er toe doen een goeide beschrijving te geven voor doven.
-
-Foto van deze toegankelijkheids test, is te vinden in mijn images.
+Korte omschrijving: Gele bril
+Deze bril is gelijk aan het uiterlijk van een nachtbril waarbij de plastic glazen volledig geel zijn.
+ 
+Mijn eerste bevinding was op het moment dat ik de gele bril opzette. Het eerste dat mij opviel was dat alle kleuren in het algemeen een gele waas kregen. En enkele specifieke kleuren als oranje veranderen in de kleur roze of licht roze, afhankelijk van de kleur oranje wanneer je deze bril op hebt.
+ 
+ 
+Omschrijving van hoe het opgelost kan worden:
+Door gebruik te maken van een contrast checker, kun je nagaan of dat de kleuren een geschikte ratio hebben. Dit helpt om het algehele kleuren contrast te verbeteren.
+ 
+Eventueel zou je ervoor kunnen kiezen andere kleuren te gebruiken van het kleurenpallet van de huisstijl van Dunkin, om alsnog een duidelijk verschil te creëren tussen de verschillende kleuren. Die door de bril lastig van elkaar te onderscheiden zijn.
+ 
+ 
+#### Titel Blurry rondje in het midden bril tweede bevinding.
+ 
+Korte omschrijving: Blurry (rondje) bril
+Deze bril heeft twee ronde puntjes precies in het midden van je focus punt, op het moment dat je ergens naar kijkt.
+ 
+Mijn tweede bevinding had ik tijdens het uitproberen van de blurry bril. Toen ik deze bril opzette was de buitenkant van de bril aan de buitenkant goed te zien, terwijl de ronde zwarte puntjes aan de binnenkant, ervoor zorgde dat het midden van de tekst onleesbaar werd en enige foto's zelfs onherkenbaar werden als het logo.
+ 
+Omschrijving van hoe het opgelost kan worden:
+De titels van de site waren voor mij wel voldoende zichtbaar om te lezen. Je zou de broodtekst kunnen vergroten. Met een duidelijk en leesbaar font. En eventueel extra aandacht te kunnen besteden aan het verbeteren van de hiërarchie om een goed onderscheid te maken tussen belangrijke en minder belangrijke onderdelen binnen je website.
+ 
+#### Titel Dat apparaatje dat voor een motorische beperking zorgt volgende bevinding.
+ 
+Korte omschrijving:
+Op het moment dat je dit apparaat aanzet op 1 van je armen, maakt dit onverwachte en ongewenste bewegingen.
+ 
+Omschrijving van hoe het opgelost kan worden:
+Doordat je onverwachte en vaak ongewenste bewegingen maakt. Helpt het wanneer de buttons voldoende ruimte hebben tussen ieder element. Op die manier verklein je de mogelijkheid op het klikken van een ongewenste knop en hoeft de gebruiker niet opnieuw terug <- te gaan om weer opnieuw een poging te doen, om op de gewenste pagina te komen.
+ 
+#### Titel screenreader nog een bevinding.
+ 
+Hier korte omschrijving:
+De screen reader leest alle html voor op de aangewezen pagina.
+ 
+Omschrijving van hoe het opgelost kan worden:
+Door bij images die ertoe doen een goede beschrijving te geven voor blinden. Helpt het de gebruiker een betere indruk te geven van de webpagina die ze bezoeken. Het schrijven van semantische html draagt tevens ook bij, aan het gebruiksvriendelijker maken voor gebruikers met een screenreader. Omdat er op die manier beter onderscheid wordt gemaakt tussen elk onderdeel en kan die gebruiker makkelijker en sneller terecht komen op de juiste pagina.
+ 
+Foto van deze toegankelijkheidstest, is te vinden in mijn images.
 </details>
-
-
 
 
 
@@ -217,19 +203,13 @@ Foto van deze toegankelijkheids test, is te vinden in mijn images.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-student 1 Eva 
+Eva 
 alt tekst bij images, hoe uitgebreid die moeten en hoe je dat het beste aan kunt pakken
 mijn shop page
 hoe groot/klein het scherm moet kunnen zijn om de volle punten voor responsiveness te pakken, ik snap da niet.
@@ -245,8 +225,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Het liefst schaalt het een beetje mee, echter als het werkt op 1 mobiel en de rest is in orde wordt er niet lastig over gedaan.
 - punt 2
-- nog een punt
-- ...
+
 
 </details>
 
@@ -260,9 +239,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig
 
-Positioneren vond ik lastig, heb daarmee veel zitten experimenteren. (screen van posistion)
+Positioneren vond ik lastig, heb daarmee veel zitten experimenteren. 
 
 Het vervangen van zowat alle divs en classes met semantische html, aangezien de tutorials daar niet op zijn aangepast.
 
@@ -300,7 +279,5 @@ https://css-tricks.com/video-screencasts/150-hey-designers-know-one-thing-javasc
 Animations
 https://www.youtube.com/watch?v=HZHHBwzmJLk&feature=youtu.be
 
-
-3. ...
 
 </details>

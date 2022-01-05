@@ -8,7 +8,7 @@
 	
 	<title>DUNKIN</title>
 	
-	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/style2.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
@@ -28,18 +28,37 @@
     <p>INFO@DUNKINDONUTS.NL</p>
     <p>088-377 8884</p>
  <!-- Bericht verzenden -->   
-  <h2><strong>JE BERICHT</strong></h2>
-  
-  <form action="./submitted.html">
+    <h2><strong>Forms</strong></h2>
 
-    <fieldset>
-      <legend>Bericht</legend>
-      <label for="text">Type..</label>
-      <input type="text" id="text">
-    </fieldset>
+ <form action="./submitted.html">
+      
+ <fieldset>
+  <Legend>Pick your favorite donut color!</Legend>
 
-      <input type="submit" value="Submit me!">
-    </form>
+  <input type="radio" id="blue" value="blue" name="favoritecolor">
+  <label for="blue">Blue</label>
+
+  <input type="radio" id="red" value="red" name="favoritecolor">
+  <label for="red">Red</label>
+
+  <input type="radio" id="green" value="green" name="favoritecolor">
+  <label for="green">Green</label>
+
+ </fieldset>
+
+ <fieldset>
+  <legend>Personal information</legend>
+
+   <label for="age">Enter your age</label>
+   <input type="number" id="age" name="age" min="18" max="24">
+
+   <label for="email">Enter your e-mail</label>
+   <input type="email" id="email">
+ </fieldset>
+
+ <input type="submit" value="Submit me!">
+    
+ </form>
 </main>
 <!-- Navigatie onderaan --> 
 <footer>
@@ -69,8 +88,9 @@
     2021 DD IP Holder | FAQ | Privacy Policy | Foodticket 
   </div>
 
+  <a href="https://www.dunkin.nl/">Bron</a>
+  
 </footer>
-    <a href="https://www.dunkin.nl/">Bron</a>
 
 	<script src="scripts/script.js"></script>
 </body>
