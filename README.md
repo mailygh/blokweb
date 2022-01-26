@@ -190,7 +190,7 @@ Hier korte omschrijving:
 De screen reader leest alle html voor op de aangewezen pagina.
  
 Omschrijving van hoe het opgelost kan worden:
-Door bij images die ertoe doen een goede beschrijving te geven voor blinden. Helpt het de gebruiker een betere indruk te geven van de webpagina die ze bezoeken. Het schrijven van semantische html draagt tevens ook bij, aan het gebruiksvriendelijker maken voor gebruikers met een screenreader. Omdat er op die manier beter onderscheid wordt gemaakt tussen elk onderdeel en kan die gebruiker makkelijker en sneller terecht komen op de juiste pagina.
+Door bij images die ertoe doen een goede beschrijving te geven voor blinden. Helpt het de gebruiker een betere indruk te geven van de webpagina die ze bezoeken. Het schrijven van semantische html draagt tevens ook bij, aan het gebruiksvriendelijker maken voor gebruikers met een screenreader. Omdat er op die manier beter onderscheid wordt gemaakt tussen elk onderdeel, en kan de gebruiker makkelijker en sneller terecht komen op de juiste pagina.
  
 Foto van deze toegankelijkheidstest, is te vinden in mijn images.
 </details>

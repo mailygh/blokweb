@@ -126,7 +126,7 @@
     font-weight: bold;
     transition: 1s;
   }
-  footer ol img:active{
+  footer ol img :active{
     background-color:orange;
     color:var(--accent-color);
   }
@@ -196,8 +196,8 @@ main form input{
     font-weight: bold;
     transition: 1s;
 }
-/* Animatie transitie active state */
-main form input:focus{
+/* Animatie transitie focus state */
+main form input :focus{
     background-color:#fa7b0d;
     color:var(--accent-color);
 }
